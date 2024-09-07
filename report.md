@@ -20,7 +20,14 @@ for column in codex_columns:
     print(df[column].value_counts())
     print("\n")
 
-    In using this particular code, I was able to find the frequencies for ICD,DRG, and HCPCS codes. 
-    However, after reviewing the repo provided by the professor, I was able to find the frequency through his method. I think I was initially getting confused on whether to use the name of the columns provided in the data set or the name I established for the columns. Example: whether to use icd_codes or ICD_DGNS_CD1 when trying to find frequencies. 
-    After establishing which was the correct coding to use, I was able to find the frequencies. On my end, I had no missing values. 
-    Truthfully, it is a little hard for me to interpret the data and its meaning. I was able to follow the steps provided by the professor, but to understand the data and be able to retrieve it myself with no additional material or support would be a challenge. 
+ 
+ In using this particular code, I was able to find the frequencies for ICD,DRG, and HCPCS codes.
+    
+ However, after reviewing the repo provided by the professor, I was able to find the frequency through his method. I think I was initially getting confused on whether to use the name of the columns provided in the data set or the name I established for the columns.
+
+Example: whether to use icd_codes or ICD_DGNS_CD1 when trying to find frequencies. 
+
+
+ After establishing which was the correct coding to use, I was able to find the frequencies. On my end, I had no missing values. 
+ 
+ Truthfully, it is a little hard for me to interpret the data and its meaning. I was able to follow the steps provided by the professor, but to understand the data and be able to retrieve it myself with no additional material or support would be a challenge. 
